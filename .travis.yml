@@ -1,0 +1,10 @@
+language: csharp
+solution: FSharp.sln
+mono: none
+dotnet: 2.1.504
+
+install:
+- dotnet restore
+
+script:
+ - dotnet build
